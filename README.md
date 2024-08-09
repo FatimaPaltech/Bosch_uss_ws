@@ -1,6 +1,6 @@
 The two packages in this repository need to be cloned in the ros2 workspace. 
 
-For setting CAN connection, read in detail here: https://www.notion.so/paltech-gmbh/Implement-ROS2-node-for-Bosch-Sensors-to-stop-the-robot-7b8cedcde19441f2879d112612fc8328?pvs=4
+For setting CAN connection, read in detail [here](https://www.notion.so/paltech-gmbh/Implement-ROS2-node-for-Bosch-Sensors-to-stop-the-robot-7b8cedcde19441f2879d112612fc8328?pvs=4).
 
 ### For building the ```off_highway_sensor_drivers``` and ```ros2_socketcan``` pacakge (in separate terminals for each package):
 

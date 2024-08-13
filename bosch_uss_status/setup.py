@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'bosch_uss = bosch_uss_status.bosch_uss:main',
+            'de_mode = bosch_uss_status.de_mode:main',
+            'ce_mode = bosch_uss_status.ce_mode:main',
         ],
     },
 )

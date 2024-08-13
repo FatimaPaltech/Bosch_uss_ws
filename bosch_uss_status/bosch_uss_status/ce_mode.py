@@ -7,7 +7,7 @@ import numpy as np
 
 class CEMOde(Node):
     def __init__(self):
-        super().__init__('object_subscriber')
+        super().__init__('ce_mode')
         
         self.subscription = self.create_subscription(
             Objects,

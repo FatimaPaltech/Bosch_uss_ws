@@ -58,10 +58,7 @@ ros2 run bosch_uss_status ce_mode
 
 1. Connect the wifi first (basestation...)
 
-2. Ssh connection:
-```bash
-  ssh paltech@192.168.101.110
-```
+2. Set the ssh connection.
 
 4. Type the following command to not have to build each terminal for launching:
 ```bash

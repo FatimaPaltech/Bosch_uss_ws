@@ -51,6 +51,28 @@ ros2 topic echo /direct_echos
 5. Now, run the ROS2 node as below in a new terminal after building and sourcing the workspace: 
 
 ```bash
-ros2 run bosch_uss_status bosch_uss
+ros2 run bosch_uss_status ce_mode
 ```
+
+### CONNECTING WITH ROBOT 
+
+1. Connect the wifi first (basestation...)
+
+2. Ssh connection:
+```bash
+  ssh paltech@192.168.101.110
+```
+
+4. Type the following command to not have to build each terminal for launching:
+```bash
+byobu
+```
+
+fn + f2 = new terminal
+
+fn + f3 = switch terminals
+
+in separate byobu terminals:
+
+repeat the same process as mentioned above.
 
